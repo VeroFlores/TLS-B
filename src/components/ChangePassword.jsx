@@ -35,7 +35,7 @@ const RecoverPassword = () => {
   return (
     <div className="recoverPassword">
       <div className="header-recover">
-        <h1> Recuperar Password</h1>
+        <h1> Cambiar Contraseña</h1>
         <p>Ingrese la dirección de correo electrónico asociada a su cuenta:</p>
       </div>
       <form onSubmit={handlePassword}>
@@ -45,7 +45,7 @@ const RecoverPassword = () => {
             <input name="email" type="email" placeholder="email" />
           </label>
         </div>
-        <button type="submit" className="recuperar">Cambiar Password</button>
+        <button type="submit" className="recuperar">Cambiar Contraseña</button>
       </form>
       <Link to="/login" className="return-login"><AiOutlineArrowLeft /></Link>
     </div>

@@ -146,12 +146,12 @@ const Query = () => {
             </Form.Group>
             <Form.Group as={Row} controlId="formHorizontalCheck" className="d-flex align-items-center mx-auto col-10  ">
               <Form.Label column sm={4}>
-                ¿La consulta es confidentacial?
+                ¿La consulta es confidencial?
               </Form.Label>
               <Col sm={{ span: 2 }}>
                 <Form.Check
                   type="radio"
-                  label="si"
+                  label="Si"
                   name="yesRadio"
                   id="formHorizontalRadios1"
                 />

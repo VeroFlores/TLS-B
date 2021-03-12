@@ -10,22 +10,6 @@ import '../styles/Info.scss';
 import Header from './Header';
 import Podcast from '../img/podcast.jpeg';
 
-// const useStyles = makeStyles({
-//   card: {
-//     maxWidth: 345,
-//     boxShadow: '0 5px 8px 0 rgba(0, 0, 0, 0.3)',
-//     backgroundColor: '#fafafa',
-
-//     // display: 'flex',
-//   },
-//   cardDetails: {
-//     flex: 1,
-//   },
-//   cardMedia: {
-//     width: 160,
-//   },
-// });
-
 const InformationofInterest = () => {
   // const classes = useStyles();
   const content = [

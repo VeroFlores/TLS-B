@@ -93,7 +93,7 @@ const Detail = () => {
                 </p>
                 <p>Sublos: Tributario</p>
                 <p>Socio a cargo: Cristina Yang Aval</p>
-                <p>Gerente a cargo: Maria Alejendra Rivera Lopez</p>
+                <p>Gerente a cargo: David Llanos</p>
               </div>
             </div>
             <div className="detail-state">
