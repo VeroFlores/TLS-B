@@ -11,7 +11,6 @@ import '../styles/Details.scss';
 const Answer = (props) => {
   const { currentUser } = useContext(AuthContext);
   const { querieId, client } = props;
-  console.log(currentUser, client.user);
   const [answer, setAnswer] = useState([]);
   useEffect(() => {
     db.collection('queries').doc(querieId).collection('answer').orderBy('time', 'asc').onSnapshot((querySnapshot) => {
